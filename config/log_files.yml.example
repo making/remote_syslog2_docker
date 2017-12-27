@@ -1,0 +1,7 @@
+files:
+  - /var/log/*.log
+  - /var/lib/docker/containers/*/*.log
+destination:
+  host: syslog.example.com
+  port: 514
+  protocol: tcp
