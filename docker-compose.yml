@@ -1,0 +1,7 @@
+version: '2'
+services:
+  remote_syslog2:
+    image: making/remote_syslog2:latest
+    container_name: remote_syslog2
+    volumes:
+      - ./config:/etc/rs2
