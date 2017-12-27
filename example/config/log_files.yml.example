@@ -1,3 +1,4 @@
+# copy this file to log_files.yml
 files:
   - /var/log/*.log
   - /var/lib/docker/containers/*/*.log
